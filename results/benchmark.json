@@ -1,0 +1,56 @@
+{
+  "python": "3.13.5",
+  "plataforma": "linux",
+  "semente_base": 20261031,
+  "repeticoes": 5,
+  "tamanhos": [
+    500,
+    1000,
+    2000,
+    4000,
+    8000
+  ],
+  "caso": "listas sem duplicatas (pior caso para a implementacao original)",
+  "resultados": [
+    {
+      "n": 500,
+      "original_minimo_s": 0.003457430999958433,
+      "original_mediana_s": 0.0036821399999666937,
+      "otimizada_minimo_s": 2.1151999987978343e-05,
+      "otimizada_mediana_s": 2.2593999972286838e-05,
+      "ganho_mediana_x": 162.9698151935515
+    },
+    {
+      "n": 1000,
+      "original_minimo_s": 0.015040059999989808,
+      "original_mediana_s": 0.015723931000025004,
+      "otimizada_minimo_s": 4.0640999998231564e-05,
+      "otimizada_mediana_s": 4.2543999995814374e-05,
+      "ganho_mediana_x": 369.59221045439966
+    },
+    {
+      "n": 2000,
+      "original_minimo_s": 0.06252209999996694,
+      "original_mediana_s": 0.06331699800000479,
+      "otimizada_minimo_s": 8.985600004507432e-05,
+      "otimizada_mediana_s": 9.788799997068054e-05,
+      "ganho_mediana_x": 646.8310520081064
+    },
+    {
+      "n": 4000,
+      "original_minimo_s": 0.241554936,
+      "original_mediana_s": 0.24884629999996832,
+      "otimizada_minimo_s": 0.0001709080000296126,
+      "otimizada_mediana_s": 0.0001896960000067338,
+      "ganho_mediana_x": 1311.8162744134552
+    },
+    {
+      "n": 8000,
+      "original_minimo_s": 0.9461523310000075,
+      "original_mediana_s": 0.982650523000018,
+      "otimizada_minimo_s": 0.00040557099998750346,
+      "otimizada_mediana_s": 0.00041880099996660647,
+      "ganho_mediana_x": 2346.342351327649
+    }
+  ]
+}
